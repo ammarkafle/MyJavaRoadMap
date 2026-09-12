@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_03_LogicalOperator;
 
 import java.util.Scanner;
 
-public class LogicalOperator {
-    public static void main() {
+public class LO_00_LogicalOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

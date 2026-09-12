@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_05_InputAndOutput;
 
 import java.util.Scanner;
 
-public class InputAndOutput {
-   public static void main() {
+public class IAO_00_InputAndOutput {
+   public static void main(String[] args) {
 
        // This is the creation of object to take input from use or console
        Scanner sc = new Scanner(System.in);

@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_01_AssignmentOperator;
 
 import java.util.Scanner;
 
-public class AssignmentOperator {
-    public static void main() {
+public class AsO_00_AssignmentOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

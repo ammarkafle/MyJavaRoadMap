@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_04_DataTypes.DT_00_PrimitiveDataType;
 
-public class PrimitiveDataType {
-    public static void main() {
+public class PDT_00_PrimitiveDataType {
+    public static void main(String[] args) {
 
         // There are 8 types of primitive data types in Java.
         int x = 10; // used for normal integers

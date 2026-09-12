@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_02_RelationalOperator;
 
 import java.util.Scanner;
 
-public class RelationalOperator {
-    public static void main() {
+public class RO_00_RelationalOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

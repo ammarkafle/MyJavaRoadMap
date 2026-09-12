@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_04_DataTypes.DT_01_NonPrimitiveDataType;
 
-public class ReferenceDataType {
-    public static void main() {
+public class NPDT_00_ReferenceDataType {
+    public static void main(String[] args) {
 
         // String
         String name = "Ammar Kafle";

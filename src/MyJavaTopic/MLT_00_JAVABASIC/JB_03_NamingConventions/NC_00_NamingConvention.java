@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_03_NamingConventions;
 
-public class NamingConvention {
-    public static void main() {
+public class NC_00_NamingConvention {
+    public static void main(String[] args) {
 
         /* There are various way to declare the
         variables, methods, class, interface, constant,

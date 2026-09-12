@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_00_WideningCasting;
 
-public class WideningCasting {
-    public static void main() {
+public class WC_00_WideningCasting {
+    public static void main(String[] args) {
 
         /* Note :
         Function: Converts a smaller data type into a larger data type.

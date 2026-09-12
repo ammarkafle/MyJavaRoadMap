@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_00_ArithmeticOperator;
 
 import java.util.Scanner;
 
-public class ArithmeticOperator {
-    public static void main() {
+public class AO_00_ArithmeticOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_02_Variables;
 
-public class Variable {
-    public static void main() {
+public class V_00_Variable {
+    public static void main(String[] args) {
 
         int age = 20;
         String name = "Ammar Kafle";

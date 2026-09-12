@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_04_UnaryOperator;
 
 import java.util.Scanner;
 
-public class UnaryOperator {
-    public static void main() {
+public class UO_00_UnaryOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 

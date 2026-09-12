@@ -1,7 +1,7 @@
 package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_01_NarrowingCasting;
 
-public class NarrowingCasting {
-    public static void main() {
+public class NC_00_NarrowingCasting {
+    public static void main(String[] args) {
 
         /* Note :
         Function: Converts a larger data type into a smaller data type.

@@ -2,8 +2,8 @@ package MyJavaTopic.MLT_00_JAVABASIC.JB_06_Operators.O_05_TernaryOperator;
 
 import java.util.Scanner;
 
-public class TernaryOperator {
-    public static void main() {
+public class TO_00_TernaryOperator {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
