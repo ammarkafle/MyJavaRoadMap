@@ -1,4 +1,4 @@
-package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_01_NarrowingCasting;
+package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_01_ExplicitCasting;
 
 public class NC_00_NarrowingCasting {
     public static void main(String[] args) {

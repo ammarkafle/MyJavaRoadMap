@@ -1,4 +1,4 @@
-package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_00_WideningCasting;
+package MyJavaTopic.MLT_00_JAVABASIC.JB_07_TypeCasting.TC_00_ImplicitCasting;
 
 public class WC_00_WideningCasting {
     public static void main(String[] args) {
