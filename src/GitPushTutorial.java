@@ -4,7 +4,7 @@ public class GitPushTutorial {
 
 /*
         PUSHING ON GITHUB TO NEW REPO WHICH IS RECENT CREATED STEP
-       STEP 1 = giT init
+       STEP 1 = git init
        STEP 2 = git add .
        STEP 3 = git commit -m "Initial commit"
        STEP 4 = git branch -M main
