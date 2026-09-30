@@ -98,17 +98,20 @@ public class AmmarNotes {
         /*
         8) DataTypes = It means what kind of value a variable can store, such as an integer, decimal, character, or text.
            Types of DataType
-        */
+        */ // Primitive Data Type
         int     workerId        = 12;            // used for normal integer
         double  priceOfLaptop   = 899.98;        // used for small precise decimal number
         float   priceOfComputer = 9934.0894F;    // used for long decimal number
         boolean existComputer   = true;          // used for either true or false
         char    c               = 'A';           // used for single character
-        String  collegeName     = "CCT College"; // used for text
 
         long    phoneNumber     = 98239843984L;  // used for large integer
         short   birthYear       = 12333;         // used for as integer
         byte    dateOfBirth     = 92;            // used for small integer
+
+        // NOn Primitive Data Type
+        String  collegeName     = "CCT College"; // used for text
+        String [] craName = {"MG","Hylux","Scorpi"};
 
 
         /*
