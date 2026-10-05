@@ -109,9 +109,9 @@ public class AmmarNotes {
         short   birthYear       = 12333;         // used for as integer
         byte    dateOfBirth     = 92;            // used for small integer
 
-        // NOn Primitive Data Type
+        // Non Primitive Data Type
         String  collegeName     = "CCT College"; // used for text
-        String [] craName = {"MG","Hylux","Scorpi"};
+        String [] carName = {"MG","Hylux","Scorpi"};
 
 
         /*
