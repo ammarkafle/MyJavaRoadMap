@@ -1,4 +1,4 @@
-package MyJavaTopic.MLT_01_JAVAADVANCE.JA_01_CollectionFramework;
+package MyJavaTopic.MLT_01_JAVAADVANCE.JA_01_CollectionFramework.CF_00_Iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
