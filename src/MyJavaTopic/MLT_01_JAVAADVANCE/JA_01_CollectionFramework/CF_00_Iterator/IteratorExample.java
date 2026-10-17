@@ -3,67 +3,60 @@ package MyJavaTopic.MLT_01_JAVAADVANCE.JA_01_CollectionFramework.CF_00_Iterator;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class IteratorExample {
     public static void main(String[] args) {
 
-        // Create a list of student names
-        List<String> students = new ArrayList<>();
+        System.out.println("Hello Ammar");
 
-        students.add("Ammar");
-        students.add("Ram");
-        students.add("Sita");
-        students.add("Hari");
-        students.add("Gita");
+        List<String> productName = new ArrayList<>();
 
-        // Create an Iterator from the student list
-        Iterator<String> iterator = students.iterator();
+        // Adding Product
+        productName.add("Laptop");
+        productName.add("Mouse");
+        productName.add("Expired-Milk");
+        productName.add("Keyboard");
+        productName.add("Expired-Bread");
+        productName.add("Monitor");
+        productName.add("Mouse");
+        productName.add("Expired-Juice");
 
-        System.out.println("Students:");
+        // Original Product List
+        System.out.println("Original Product List : " + productName);
 
-        // hasNext() checks whether another element is available
-        while (iterator.hasNext()) {
+        // Creating Iterator
+        Iterator<String> iterator = productName.iterator();
 
-            // next() gets the next element
-            String student = iterator.next();
-
-            System.out.println(student);
+        while(iterator.hasNext())
+        {
+            String product = iterator.next();
+            System.out.println("Traverse Product List : " + product);
         }
 
-        // Create a new Iterator because the previous
-        // Iterator has already reached the end
-        iterator = students.iterator();
-
-        // Rem ove through the list
-        while (iterator.hasNext()) {
-
-            // Get the current student
-            String student = iterator.next();
-
-            // Check the student name
-            if (student.equals("Ram")) {
-
-                // remove() removes the current element
+        // Creating Iterator For Removing Product that Starts With Expired-
+        iterator = productName.iterator();
+        int count = 0;
+        while(iterator.hasNext())
+        {
+            String removeProduct = iterator.next();
+            if(removeProduct.startsWith("Expired-"))
+            {
                 iterator.remove();
+                count++;
             }
         }
+        // Counting Product that is Removed From List
+        System.out.println("Total Number of Product Removed : " + count);
 
-        System.out.println("\nAfter removing Ram:");
-        System.out.println(students);
 
-        // Create another Iterator
-        iterator = students.iterator();
+        // Creating Iterator For Remaining Product List
+        iterator= productName.iterator();
+        System.out.println("Remaining Product List : ");
+        iterator.forEachRemaining(product -> System.out.println(product));
 
-        System.out.println("\nUsing forEachRemaining():");
-        // forEachRemaining() processes all remaining elements
-        iterator.forEachRemaining(new Consumer<String>() {
-            @Override
-            public void accept(String student) {
-                // Print each remaining student
-                System.out.println(student);
-               }
-            }
-        );
+        // Updated Product List
+        System.out.println("Updated Product List : " + productName);
+
+
     }
 }
